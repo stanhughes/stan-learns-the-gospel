@@ -6,30 +6,41 @@ html {
   font-family: 'Arial Black', sans-serif;
   background: url(cesira-alvarado-PxWU6oqmctY-unsplash.jpeg) no-repeat center center fixed;
   background: url(cesira-alvarado-dxIIYAiR2xw-unsplash.jpeg) no-repeat center center fixed;
-  background: url(home_lamb_christ.jpeg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 
+body::after {
+  content: "";
+  background: url(home_lamb_christ.jpeg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+}
+
 h1 {
   font-size: 3rem;
-  color: rgb(124, 185, 124);
-  color: rgba(21, 104, 70, 0.5);
-  color: #40C9A7;
+  color: #37392E;
 }
 
 h2 {
   font-size: 1rem;
-  color: #40C9A7;
+  color: #37392E;
 }
 
 h3 {
   font-size: 1rem;
-  color: green;
-  color: #ff1f22;
-  color: #40C9A7;
+  color: #37392E;
 }
 
 hr {
@@ -41,7 +52,6 @@ hr {
 
 .attribute {
   font-size: 0.7rem;
-  color: rgb(124, 185, 124);
 }
 
 .buffer {
@@ -71,4 +81,14 @@ hr {
 
 .btn-xl {
   padding: 1rem 2rem;
+}
+
+p {
+  color: #0B0B09;
+}
+
+q {
+  color: green;
+  color: #0C3131;
+  color: #145252;
 }
