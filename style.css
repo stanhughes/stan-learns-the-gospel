@@ -54,6 +54,10 @@ hr {
   font-size: 0.7rem;
 }
 
+.mainPage {
+  font-size: 1rem;
+}
+
 .buffer {
   height: 10rem;
 }
